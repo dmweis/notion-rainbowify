@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"notion_rainbowify":[["impl <a class=\"trait\" href=\"https://docs.rs/serde/1.0.158/serde/ser/trait.Serialize.html\" title=\"trait serde::ser::Serialize\">Serialize</a> for <a class=\"struct\" href=\"notion_rainbowify/configuration/struct.AppConfig.html\" title=\"struct notion_rainbowify::configuration::AppConfig\">AppConfig</a>"]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

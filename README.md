@@ -1,6 +1,5 @@
 # Rainbowify notion text
 
-[![codecov](https://codecov.io/gh/dmweis/notion-rainbowify/branch/main/graph/badge.svg)](https://codecov.io/gh/dmweis/notion-rainbowify)
 [![Rust](https://github.com/dmweis/notion-rainbowify/workflows/Rust/badge.svg)](https://github.com/dmweis/notion-rainbowify/actions)
 [![Private docs](https://github.com/dmweis/notion-rainbowify/workflows/Deploy%20Docs%20to%20GitHub%20Pages/badge.svg)](https://davidweis.dev/notion-rainbowify/notion-rainbowify/index.html)
 

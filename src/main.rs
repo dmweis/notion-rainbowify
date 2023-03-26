@@ -81,12 +81,12 @@ async fn main() -> anyhow::Result<()> {
     let mut children = vec![];
 
     for rainbow_pattern in &rainbows {
-        let new_element = gay_agendify_with_automated_size(&text, rainbow_pattern);
+        let new_element = rainbowify_with_automated_size(&text, rainbow_pattern);
         children.push(new_element);
     }
 
     for rainbow_pattern in &rainbows {
-        let new_element = gay_agendify_repeating(&text, rainbow_pattern);
+        let new_element = rainbowify_repeating(&text, rainbow_pattern);
         children.push(new_element);
     }
 
@@ -111,16 +111,16 @@ fn extract_element_id_from_link(link: &str) -> anyhow::Result<String> {
     Ok(id)
 }
 
-fn gay_agendify_with_automated_size(text: &str, rainbow: &[TextColor]) -> CreateBlock {
+fn rainbowify_with_automated_size(text: &str, rainbow: &[TextColor]) -> CreateBlock {
     let chunk_size = text.len() / rainbow.len();
-    gay_agendify(text, chunk_size, rainbow)
+    rainbowify(text, chunk_size, rainbow)
 }
 
-fn gay_agendify_repeating(text: &str, rainbow: &[TextColor]) -> CreateBlock {
-    gay_agendify(text, 1, rainbow)
+fn rainbowify_repeating(text: &str, rainbow: &[TextColor]) -> CreateBlock {
+    rainbowify(text, 1, rainbow)
 }
 
-fn gay_agendify(text: &str, step: usize, rainbow: &[TextColor]) -> CreateBlock {
+fn rainbowify(text: &str, step: usize, rainbow: &[TextColor]) -> CreateBlock {
     let mut rainbow_repeat = rainbow.iter().cycle();
 
     let mut rich_text = vec![];

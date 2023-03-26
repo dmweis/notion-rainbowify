@@ -4,6 +4,8 @@
 [![Rust](https://github.com/dmweis/notion-rainbowify/workflows/Rust/badge.svg)](https://github.com/dmweis/notion-rainbowify/actions)
 [![Private docs](https://github.com/dmweis/notion-rainbowify/workflows/Deploy%20Docs%20to%20GitHub%20Pages/badge.svg)](https://davidweis.dev/notion-rainbowify/notion-rainbowify/index.html)
 
+![Rainbow text in notion](images/notion_rainbowify.jpeg)
+
 This project was just an exercise to get familiar with the Notion api.  
 
 No one should use it for anything.  

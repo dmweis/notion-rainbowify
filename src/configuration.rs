@@ -1,9 +1,8 @@
-use std::path::{PathBuf};
-
 use anyhow::{Context, Result};
 use config::Config;
 use directories::ProjectDirs;
 use serde::{Deserialize, Serialize};
+use std::path::PathBuf;
 
 const PROJECT_QUALIFIER: &str = "com";
 const PROJECT_ORGANIZATION: &str = "dmweis";
